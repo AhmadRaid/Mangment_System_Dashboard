@@ -1,0 +1,78 @@
+.main-page .row {
+	margin-left: 0;
+}
+.main-page .full i {
+	color: rgba(255, 255, 255, 0.2);
+}
+.main-page .body .title h5 {
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.6);
+}
+.main-page .full p {
+	font-size: 14px;
+	font-weight: 900;
+}
+.main-page .body .full-stat {
+	color: white;
+	padding: 10px 13px;
+	margin-bottom: 20px;
+}
+.main-page .body .full-stat > * {
+	margin-bottom: 0 !important;
+}
+.main-page .body .row > *:first-child .full-stat {
+	background-color: #548a2e;
+}
+.main-page .body .row > *:nth-child(2) .full-stat {
+	background-color: #5a68ba;
+}
+.main-page .body .row > *:nth-child(3) .full-stat {
+	background-color: #e36600;
+}
+.main-page .body .row > *:nth-child(4) .full-stat {
+	background-color: #e5343d;
+}
+.main-page .body .row > *:nth-child(5) .full-stat {
+	background-color: #5b69bc;
+}
+.main-page .body .row > *:nth-child(6) .full-stat {
+	background-color: #558b2f;
+}
+
+/* thid section */
+.main-page .third-section .charts,
+.main-page .third-section .quickProc,
+.main-page .fourth-section {
+	background-color: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+hr {
+	margin-left: -0.5rem;
+	margin-right: -0.5rem;
+}
+
+.main-page .third-section .procedBox {
+	width: 84px;
+	height: 80px;
+	font-weight: bold;
+	background-color: #f1f3f6;
+	margin: 2px 3px;
+	cursor: pointer;
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 12px;
+}
+.main-page .fourth-section {
+	margin-left: 15px;
+}
+
+.main-page table tbody tr:nth-child(odd) {
+	background-color: #f7f7f7;
+}
+
+@media (max-width: 575px) {
+	.fourth-section {
+		width: 100%;
+		overflow-x: scroll;
+	}
+}

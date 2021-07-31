@@ -1,0 +1,103 @@
+	/* Coded with love by Mutiullah Samim */
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        /* background: #60a3bc !important; */
+        /* background-color: #0cbaba;
+        background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%); */
+        background-image: url(../pages/office-desk-with-computer-clipboard.jpg);
+        background-size: 100% 100%;
+        position: relative;
+    }
+    .mask{
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 100%;
+        width: 100%;
+    }
+    .container{
+        /* background-image: url(../pages/office-desk-with-computer-clipboard.jpg); */
+    }
+    .form_container form{
+        width: 280px;
+    }
+    .user_card {
+        height: 350px;
+        width: 350px;
+        margin-top: auto;
+        margin-bottom: auto;
+        background: transparent;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+        /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+        box-shadow: 0 7px 12px 2px rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+        border-radius: 5px;
+
+    }
+    .brand_logo_container {
+        position: absolute;
+        height: 140px;
+        width: 140px;
+        top: -75px;
+        border-radius: 50%;
+        background: #202931 ;
+
+        padding: 10px;
+        text-align: center;
+    }
+    .brand_logo_container svg{
+        line-height: 75px;
+    }
+    .brand_logo {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        border: 2px solid white;
+    }
+    .form_container {
+        margin-top:28px;
+    }
+    .login_btn {
+        width: 100%;
+        background: #202931 !important;
+        color: white !important;
+        border-radius: 3px;
+    }
+    .login_btn:focus {
+        box-shadow: none !important;
+        outline: 0px !important;
+    }
+    .login_container {
+        padding: 0 2rem;
+    }
+    .input-group-text {
+        background: #fff !important;
+        color: #202931 !important;
+        border: 0 !important;
+         padding: 0.70rem 0.75rem !important;
+
+    }
+    .input_user,
+    .input_pass:focus {
+        box-shadow: none !important;
+        outline: 0px !important;
+    }
+  
+    .input-group input{
+        margin-right: -2px;
+        border-radius: 0px;
+        border-right: none;
+        border-top-left-radius:3px !important;
+        border-bottom-left-radius:3px !important;
+        border: none;
+        text-indent: 7px;
+    }

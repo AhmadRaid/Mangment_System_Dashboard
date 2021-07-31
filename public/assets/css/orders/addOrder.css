@@ -1,0 +1,54 @@
+.radio h5 {
+    border-right: 2px solid #aaa;
+}
+
+.radio label {
+    margin-left: 15px;
+}
+
+.ask-box span {
+    font-weight: 900;
+}
+
+.ask-box.hidden {
+    display: none !important;
+}
+
+.ask-box input {
+    margin-right: 50px;
+    height: 30px;
+}
+
+.radio button.btn-success {
+    width: 120px;
+    margin-right: 15px;
+    height: 30px;
+    padding: 0;
+}
+
+.discountInfo.hidden {
+    display: none;
+}
+
+.number.hidden {
+    display: none;
+}
+
+.fields input {
+    margin-right: 0 !important;
+}
+
+.fields.hidden {
+    display: none !important;
+}
+
+.btns button {
+    width: 150px;
+    transition: 0.3s;
+}
+
+@media (max-width: 991px) {
+    .radio #discount-value {
+        margin-right: 0;
+    }
+}

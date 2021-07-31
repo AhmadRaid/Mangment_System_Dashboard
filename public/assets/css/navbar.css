@@ -1,0 +1,36 @@
+nav.navbar {
+	padding: 0;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	background-color: white;
+}
+.right {
+	height: 50px;
+}
+.right .nav-title {
+	width: 250px;
+	background-color: #3e454c;
+	color: white;
+	height: 50px;
+	line-height: 50px;
+}
+
+.right .icon {
+	margin-right: 20px;
+}
+
+.left ul > * {
+	margin-right: 16px;
+}
+.left {
+	height: 50px;
+	line-height: 50px;
+}
+.left .off-btn {
+	background-color: #3e454c;
+	width: 50px;
+	text-align: center;
+	height: 50px;
+}
+.left .off-btn i {
+	color: white;
+}
